@@ -6,9 +6,7 @@ import jakarta.validation.constraints.NotNull;
 
 @Entity
 public class Carro extends Veiculo {
-    @Max(value = 4)
     private int numeroPortas;
-    @Max(value = 20)
     @NotNull
     private String tipoCombustivel;
 

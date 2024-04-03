@@ -6,9 +6,7 @@ import jakarta.validation.constraints.NotNull;
 
 @Entity
 public class Moto extends Veiculo {
-    @Max(value = 2100)
     private int cilindradas;
-    @Max(value = 20)
     private String tipoPartida;
 
     public Moto() {

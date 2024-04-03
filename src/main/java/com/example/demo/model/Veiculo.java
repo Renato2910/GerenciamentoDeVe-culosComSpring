@@ -10,13 +10,10 @@ public abstract class  Veiculo {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @NotNull
-    @Max(value = 50)
     private String marca;
     @NotNull
-    @Max(value = 30)
     private String modelo;
     @NotNull
-    @Min(value = 1900)
     private int ano;
 
     public Veiculo() {

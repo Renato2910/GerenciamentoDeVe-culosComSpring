@@ -24,4 +24,4 @@ O projeto segue uma arquitetura MVC (Model-View-Controller), onde:
 
 Assista ao vídeo abaixo para uma demonstração do funcionamento do sistema:
 
-[![Assista ao vídeo de demonstração](link_do_seu_video)](link_do_seu_video)
+[link do video](https://youtu.be/dzMANhBAzd8)
